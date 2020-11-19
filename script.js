@@ -77,11 +77,12 @@ function svalidate(){
             strn.innerText = "strong";
             strn.style.color = "green";
             return true;
-        }else{
-            alert("passowrd should not exceed 8 characters");
-            return false;
-
         }
+//         }else{
+//             alert("passowrd should not exceed 8 characters");
+//             return false;
+
+//         }
     
     } else{
             alert("Invalid password");
